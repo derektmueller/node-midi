@@ -39,6 +39,7 @@ public:
     static NAN_METHOD(GetPortCount);
     static NAN_METHOD(GetPortName);
 
+    static NAN_METHOD(Release);
     static NAN_METHOD(OpenPort);
     static NAN_METHOD(OpenVirtualPort);
     static NAN_METHOD(ClosePort);
